@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1 class="title">Investment Converter</h1>
+        <img id="#image" src="/image-removebg-preview (6).png" alt="money" />
+        <button id="#button" type="button">click me!</button>
+      </div>
+      <section>
+        <form>
+          <div class="form-child">
+            <label>The amount you start with</label>
+            <input id="principal" placeholder="principle" />
+          </div>
+          <div class="form-child">
+            <label>Interest Rate <output id="ir-out">50</output>%</label>
+            <input type="range" min="0" max="100" id="ir"/> 
+          </div>
+          <div class="form-child">
+            <label># times compounded / yr</label>
+            <input id="times" placeholder="times"/>
+          </div>
+          <div class="form-child">
+            <label>Total Number of years</label>
+            <input id="yrs" placeholder="years"/>
+          </div>
+          </div>
+        <div class="output">
+          <p>According to calculations, your compound interest is <output id="output">___</output></p>
+        </div>
+      </form>
+      </section>
+      
+      <footer>
+        <a href="https://codesandbox.io/p/sandbox/compound-interest-investment-6s4hxn?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522cm0wtgho700063j6kod8w3y5t%2522%252C%2522sizes%2522%253A%255B100%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522cm0wtgho700023j6ks1c3gdcl%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522cm0wtgho700033j6k6i5jlv1x%2522%257D%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522cm0wtgho700053j6k73a2wj68%2522%257D%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522cm0wtgho700023j6ks1c3gdcl%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522cm0wtgho700013j6k4h3bi9ah%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252Findex.html%2522%252C%2522state%2522%253A%2522IDLE%2522%252C%2522initialSelections%2522%253A%255B%257B%2522startLineNumber%2522%253A48%252C%2522startColumn%2522%253A2997%252C%2522endLineNumber%2522%253A48%252C%2522endColumn%2522%253A2997%257D%255D%257D%252C%257B%2522id%2522%253A%2522cm0ykv9nn00023j6k2m58zjbu%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522initialSelections%2522%253A%255B%257B%2522startLineNumber%2522%253A36%252C%2522startColumn%2522%253A17%252C%2522endLineNumber%2522%253A36%252C%2522endColumn%2522%253A17%257D%255D%252C%2522filepath%2522%253A%2522%252Fscript.js%2522%252C%2522state%2522%253A%2522IDLE%2522%257D%255D%252C%2522id%2522%253A%2522cm0wtgho700023j6ks1c3gdcl%2522%252C%2522activeTabId%2522%253A%2522cm0ykv9nn00023j6k2m58zjbu%2522%257D%252C%2522cm0wtgho700053j6k73a2wj68%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522cm0wtgho700043j6kelduzu2k%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522UNASSIGNED_PORT%2522%252C%2522port%2522%253A0%257D%255D%252C%2522id%2522%253A%2522cm0wtgho700053j6k73a2wj68%2522%252C%2522activeTabId%2522%253A%2522cm0wtgho700043j6kelduzu2k%2522%257D%252C%2522cm0wtgho700033j6k6i5jlv1x%2522%253A%257B%2522tabs%2522%253A%255B%255D%252C%2522id%2522%253A%2522cm0wtgho700033j6k6i5jlv1x%2522%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Afalse%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D">
+          Get Code Link
+        </a>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
